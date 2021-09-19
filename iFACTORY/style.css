@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#ifactor__border {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  border: 3px dotted black;
+  left: 150px;
+  top: 30px;
+  /* z-index: 80; */
+}
+#ifactor__heading {
+  position: absolute;
+  font-size: 20px;
+  top: 20px;
+  left: 750px;
+  /* z-index: 90; */
+}
+#s1__img {
+  background: rgb(25, 16, 32);
+  width: 100%;
+  height: 700px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  margin: 0px auto;
+  display: grid;
+  /* place-items: center; */
+  padding: 150px 0px 100px 0px;
+  /* display: flex; */
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20%), 0 100%);
+  margin-bottom: -20%;
+  position: relative;
+  font-weight: none;
+  grid-gap: 5px;
+  z-index: 10;
+}
+
+#s2__img {
+  background: #000 url("img1.jfif");
+  background-image: linear-gradient(
+    rgba(255, 153, 0, 0.555),
+    rgba(0, 255, 21, 0.493)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20%), 0 100%);
+  margin-bottom: -20%;
+  padding-top: 300px;
+  text-align: center;
+  position: relative;
+  z-index: 9;
+}
+#s3__img {
+  background: #000 url("img2.jfif");
+  background-image: linear-gradient(
+    rgba(255, 0, 242, 0.555),
+    rgba(0, 89, 255, 0.493)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20%), 0 100%);
+  padding-top: 300px;
+  text-align: center;
+  position: relative;
+  margin-bottom: -20%;
+  z-index: 8;
+}
+#s4__img {
+  background: #000 url("img3.jfif");
+  background-image: linear-gradient(rgba(255, 0, 21, 0.863), rgb(17, 202, 235));
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20%), 0 100%);
+  padding-top: 350px;
+  position: relative;
+  margin-bottom: -20%;
+  z-index: 7;
+}
+#s5__img {
+  background: #000 url("img4.jfif");
+  background-image: linear-gradient(
+    rgba(236, 240, 35, 0.555),
+    rgba(255, 0, 200, 0.493)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20%), 0 100%);
+  padding-top: 370px;
+  position: relative;
+  margin-bottom: -20%;
+  z-index: 6;
+}
+#s6__img {
+  background: #000 url("img5.jfif");
+  background-image: linear-gradient(
+    rgba(228, 30, 30, 0.555),
+    rgba(235, 238, 36, 0.493)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20%), 0 100%);
+  padding-top: 380px;
+  position: relative;
+  margin-bottom: -20%;
+  z-index: 5;
+}
+
+#s7__img {
+  background: #000 url("img6.jfif");
+  background-image: linear-gradient(
+    rgba(182, 131, 54, 0.247),
+    rgba(0, 4, 255, 0.192)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20%), 0 100%);
+  padding-top: 350px;
+  position: relative;
+  margin-bottom: -20%;
+  z-index: 4;
+}
+#s8__img {
+  background-image: linear-gradient(
+    rgba(241, 151, 14, 0.952),
+    rgba(104, 105, 209, 0.192)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  clip-path: polygon(0 calc(100% - 70%), 100% 0, 100% 100%, 0 100%);
+  padding-top: 260px;
+  position: relative;
+  z-index: 11;
+}
+
+#s9__img {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+}
+.s1_head {
+  text-align: center;
+  color: aliceblue;
+  letter-spacing: 5px;
+  word-spacing: 4px;
+}
+.s1_para {
+  text-align: center;
+  margin-top: -250px;
+  color: aliceblue;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+span {
+  font-size: 90px;
+}
+.s__head {
+  text-align: center;
+  color: #edc126;
+  letter-spacing: 5px;
+  word-spacing: 4px;
+  margin-top: 30px;
+}
+.s__para {
+  text-align: center;
+  color: #8d3daf;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+
+.s__heads {
+  text-align: center;
+  color: #edc126;
+  letter-spacing: 5px;
+  word-spacing: 4px;
+}
+.s__paras {
+  text-align: center;
+  color: #8d3daf;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+}
